@@ -12,13 +12,16 @@ import { HabilidadesComponent } from './components/secciones/habilidades/habilid
 import { ExperienciaComponent } from './components/secciones/experiencia/experiencia.component';
 import { ProyectosComponent } from './components/secciones/proyectos/proyectos.component';
 import { AcercadeComponent } from './components/secciones/acercade/acercade.component';
-import { CarrouselComponent } from './components/secciones/proyectos/carrousel/carrousel.component';
 
+import { CarrouselComponent } from './components/secciones/proyectos/carrousel/carrousel.component';
 import { Proyecto1Component } from './components/secciones/proyectos/carrousel/proyecto1/proyecto1.component';
 import { Proyecto2Component } from './components/secciones/proyectos/carrousel/proyecto2/proyecto2.component';
 import { Proyecto3Component } from './components/secciones/proyectos/carrousel/proyecto3/proyecto3.component';
 import { Proyecto4Component } from './components/secciones/proyectos/carrousel/proyecto4/proyecto4.component';
 import { Proyecto5Component } from './components/secciones/proyectos/carrousel/proyecto5/proyecto5.component';
+import { PortafolioService } from './servicios/portafolio.service';
+import { HttpClientModule } from '@angular/common/http'
+
 
 @NgModule({
   declarations: [
@@ -42,7 +45,8 @@ import { Proyecto5Component } from './components/secciones/proyectos/carrousel/p
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]

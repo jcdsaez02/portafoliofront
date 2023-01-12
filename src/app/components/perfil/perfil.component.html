@@ -1,15 +1,15 @@
 <div class="car mat-card" id="card-perfil">
-  <div id="profile-background"><img src="./assets/portada.jpg"></div>
+  <div id="profile-background"><img [src]="miPortafolio.imagenportada"></div>
   <div id="info" style="padding:16px 16px 2px 16px">
       <div id="info-img">
-          <img class="profile-image" src="./assets/foto-para-perfil.jpeg" id="imgperfil">
+          <img class="profile-image" [src]="miPortafolio.imagenperfil" id="imgperfil">
           <div id="editar_imgperfil" class="btn-edit" style="display:inline;">
               <a href="#" class="btn-right"><i class="fa fa-pen"></i></a>
           </div>
       </div>
       <div id="info-data"> 
           <div>
-              <h1 id="mi-nombre">Juliana Sáez</h1>
+              <h1 id="mi-nombre">{{miPortafolio.name}}</h1>
               <div id="info-empresa"> Estudiante de Sistemas en UTN FRRe </div>
               <div id="info-contacto">
                   <span>Resistencia, Chaco (Argentina)</span>
