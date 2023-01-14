@@ -1,22 +1,22 @@
 <div class="car mat-card" id="card-perfil">
-  <div id="profile-background"><img [src]="miPortafolio.imagenportada"></div>
+  <div id="profile-background"><img [src]="miPortafolio.perfil.fotoportada" title="imagen-portada"></div>
   <div id="info" style="padding:16px 16px 2px 16px">
       <div id="info-img">
-          <img class="profile-image" [src]="miPortafolio.imagenperfil" id="imgperfil">
+          <img class="profile-image" [src]="miPortafolio.perfil.fotoperfil" title="imagen-perfil" id="imgperfil">
           <div id="editar_imgperfil" class="btn-edit" style="display:inline;">
-              <a href="#" class="btn-right"><i class="fa fa-pen"></i></a>
+              <a title="boton" href="#" class="btn-right" ><i class="fa fa-pen"></i></a>
           </div>
       </div>
       <div id="info-data"> 
           <div>
-              <h1 id="mi-nombre">{{miPortafolio.name}}</h1>
+              <h1 id="mi-nombre">{{miPortafolio.perfil.nombre}}</h1>
               <div id="info-empresa"> Estudiante de Sistemas en UTN FRRe </div>
               <div id="info-contacto">
                   <span>Resistencia, Chaco (Argentina)</span>
-                  <div class="btn btn-edit"><a href="https://github.com/jcdsaez02" class="btn-right"><i class="fab fa-github"></i></a></div>
-                  <div class="btn btn-edit"><a href="https://www.instagram.com/jcdsaez/" class="btn-right"><i class="fab fa-instagram"></i></a></div>
-                  <div class="btn btn-edit"><a href="https://www.linkedin.com/in/juliana-saez" class="btn-right"><i class="fab fa-linkedin"></i></a></div>
-                  <div class="btn btn-edit"><a href="mailto:jcdsaez@gmail.com" class="btn-right"><i class="fas fa-at"></i></a></div>
+                  <div class="btn btn-edit"><a title="boton" href="https://github.com/jcdsaez02" class="btn-right"><i class="fab fa-github"></i></a></div>
+                  <div class="btn btn-edit"><a title="boton" href="https://www.instagram.com/jcdsaez/" class="btn-right"><i class="fab fa-instagram"></i></a></div>
+                  <div class="btn btn-edit"><a title="boton" href="https://www.linkedin.com/in/juliana-saez" class="btn-right"><i class="fab fa-linkedin"></i></a></div>
+                  <div class="btn btn-edit"><a title="boton" href="mailto:jcdsaez@gmail.com" class="btn-right"><i class="fas fa-at"></i></a></div>
               </div>
               <div class="info-actions">
                   <button type="button" class="btn btn-light" id="anadir-seccion">Añadir sección</button>

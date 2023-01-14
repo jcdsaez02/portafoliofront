@@ -1,3 +1,4 @@
 .card{
-  border-style: hidden;
+  border-color: darkslategrey;
+  justify-content: center;
 }

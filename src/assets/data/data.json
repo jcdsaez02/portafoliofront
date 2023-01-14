@@ -1,11 +1,72 @@
 {
-    "item1": "Acerca De",
-    "item2": "Educacion",
-    "item3": "Habilidades",
-    "item4": "Experiencia",
-    "item5": "Proyectos",
-    "name": "Juliana Sáez",
-    "imagenperfil": "./assets/foto-para-perfil.jpeg",
-    "imagenportada": "./assets/portada.jpg"
-    
+    "header": {
+        "fotopestana":"./assets/argprog.ico",
+        "textopestana":"",
+        "fotologo":"./assets/arg.png"
+    },
+    "perfil": {
+        "nombre":"Juliana Sáez",
+        "fotoportada":"./assets/portada.jpg",
+        "fotoperfil":"./assets/foto-para-perfil.jpeg",
+        "contacto":{
+            "ig":"",
+            "github":"https://github.com/jcdsaez02",
+            "linkedin":"",
+            "gmail":""
+        },
+        "texto":"Estudiante de Sistemas en UTN FRRe",
+        "lugar":"Resistencia, Chaco (Argentina)"
+
+    },
+    "secciones":{
+        "acerca-de":{
+
+        },
+        "educacion":{
+            "nombre":"Educación"
+        },
+        "experiencia":{
+
+        },
+        "habilidades":{
+
+        },
+        "proyectos":{
+            "proyecto1":{
+                "nombre": "",
+                "imagen": "",
+                "link": ""
+            },
+            "proyecto2":{
+                "nombre": "",
+                "imagen": "",
+                "link": ""
+            },
+            "proyecto3":{
+                "nombre": "",
+                "imagen": "",
+                "link": ""
+            },
+            "proyecto4":{
+                "nombre": "",
+                "imagen": "",
+                "link": ""
+            },
+            "proyecto5":{
+                "nombre": "",
+                "imagen": "",
+                "link": ""
+            },
+            "proyecto6":{
+                "nombre": "",
+                "imagen": "",
+                "link":""
+            }
+
+    }
+
+    },
+    "footer":{
+
+    }
 }
